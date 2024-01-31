@@ -4,8 +4,52 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "cccbe4cddbdaef82aa6b09a72dfe812c",
     "packages": [
+        {
+            "name": "asif160627/laravel-zkteco-integrate",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/md-asifiqbal/laravel-zkteco-access-control-integration.git",
+                "reference": "41dfa3f957295ff1f8c0349e40f2263b036a23c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/md-asifiqbal/laravel-zkteco-access-control-integration/zipball/41dfa3f957295ff1f8c0349e40f2263b036a23c0",
+                "reference": "41dfa3f957295ff1f8c0349e40f2263b036a23c0",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Asif160627\\ZktecoAccessControl\\AccessControlServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Asif160627\\ZktecoAccessControl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Asif",
+                    "email": "asif@pust.ac.bd"
+                }
+            ],
+            "description": "Integrate ZKTeco Access Control and Door Lock System with Laravel Project.",
+            "support": {
+                "issues": "https://github.com/md-asifiqbal/laravel-zkteco-access-control-integration/issues",
+                "source": "https://github.com/md-asifiqbal/laravel-zkteco-access-control-integration/tree/v1.1"
+            },
+            "time": "2023-09-10T07:00:01+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.11.0",
